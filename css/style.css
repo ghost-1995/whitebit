@@ -629,6 +629,7 @@ h4 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 32px;
 }
 
 .section-to-begin__col {
@@ -694,6 +695,15 @@ h4 {
 .section-to-begin__text {
   font-size: 22px;
   line-height: 136%;
+}
+
+.section-to-begin__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 1200.98px) {

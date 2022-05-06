@@ -536,6 +536,7 @@ h4{
 	&__row {
 		display: flex;
 		justify-content: space-between;
+		margin-bottom: $base*8;
 	}
 
 	&__col {
@@ -587,6 +588,11 @@ h4{
 	&__text {
 		font-size: 22px;
 		line-height: 136%;
+	}
+
+	&__button{
+		display: flex;
+		justify-content: center;
 	}
 }
 
